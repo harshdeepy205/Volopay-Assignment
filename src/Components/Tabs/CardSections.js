@@ -145,7 +145,7 @@ const CardSections = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Icon
                 icon="ep:menu"
-                style={{  fontSize: "20px" }}
+                style={{ fontSize: "20px" }}
               />
             </div>
           </Grid>
@@ -202,7 +202,7 @@ const CardSections = () => {
                   vertical: "top",
                   horizontal: "right",
                 }}
-              // sx={{ width: "100vw" }}
+              sx={{ width: "100vw" }}
               >
                 <Box sx={{ flexGrow: 1, padding: "3%" }}>
                   <div className="form_container">
@@ -210,7 +210,7 @@ const CardSections = () => {
                       <Typography sx={{ pt: 2 }}>Filter</Typography>
                     </div>
                     <Divider />
-                    <Typography sx={{ p: 3 }}>Type</Typography>
+                    <Typography sx={{ padding:"20px 5px" }}>Type</Typography>
                     <div className="checkbox">
                       <FormControlLabel
                         control={
@@ -241,10 +241,10 @@ const CardSections = () => {
                         label="Burner"
                       />
                     </div>
-                    <Typography sx={{ p: 3 }}>Cardholder</Typography>
+                    <Typography sx={{ padding:"20px 5px" }}>Cardholder</Typography>
 
                     <div>
-                      <FormControl sx={{ ml: 3, width: 280 }}>
+                      <FormControl sx={{ width: 219 }}>
                         <InputLabel id="demo-multiple-name-label">
                           Select cardholder
                         </InputLabel>

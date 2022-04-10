@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import InfoCard from '../Card/InfoCard'
 import Header from '../Header/Header'
 import CardSections from '../Tabs/CardSections'
 

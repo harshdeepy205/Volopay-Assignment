@@ -30,7 +30,7 @@ function TabPanel(props) {
         setFilteredData(data.data);
         break;
       case 2:
-        setFilteredData(data.data.filter((item) => item.status == "blocked"));
+        setFilteredData(data.data.filter((item) => item.status.includes("blocked")));
         break
 
       default:
